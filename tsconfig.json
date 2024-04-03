@@ -23,18 +23,18 @@
     /* Paths */
     "baseUrl": "src/",
     "paths": {
+      "@context/*": [
+        "context/*"
+      ],
       "@pages/*": [
         "pages/*",
         "pages/home/*"
       ],
       "@assets/*": [
         "assets/*",
-        "assets/pages/*"
-      ],
-      "@styles/*": [
-        "styles/*",
+        "assets/page/*"
       ]
-    } 
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

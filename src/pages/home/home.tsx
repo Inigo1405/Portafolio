@@ -1,8 +1,10 @@
+import PageTemplate from "@assets/PageTemplate";
+
 const Home = () => {
      return(
-          <div>
-               <h1>XD</h1>
-          </div>
+          <PageTemplate>
+               <h1>Hola</h1>
+          </PageTemplate>
      )
 }
 
