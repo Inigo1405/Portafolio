@@ -17,7 +17,6 @@ function App() {
         </a>
       </div>
       <h1>Coming soon</h1>
-      <h2>(∪.∪ )...zzz</h2>
     </>
   )
 }
