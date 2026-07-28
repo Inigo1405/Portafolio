@@ -5,5 +5,5 @@ export default function App() {
     <>
       <h1>Portafolio Iñigo Quintana Delgadillo</h1>
     </>
-  )
+  );
 }
