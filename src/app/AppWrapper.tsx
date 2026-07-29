@@ -1,5 +1,7 @@
 import type { ReactNode } from 'react';
 import { HelmetProvider} from 'react-helmet-async';
+import { BrowserRouter } from 'react-router-dom';
+
 
 interface Props {
   children: ReactNode;
@@ -8,7 +10,9 @@ interface Props {
 export default function AppWrapper ({ children }: Props) {
   return (
     <HelmetProvider>
-      {children}
+      <BrowserRouter>
+        {children}
+      </BrowserRouter>
     </HelmetProvider>
   );
-}
+};
