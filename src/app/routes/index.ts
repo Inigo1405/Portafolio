@@ -12,7 +12,7 @@ const index: RouteObject[] = [
       {
         index: true,
         Component: HomePage,
-      }
+      },
     ]
   },
 ];
