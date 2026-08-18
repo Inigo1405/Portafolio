@@ -6,18 +6,18 @@ import Footer from "@components/Footer/Footer";
 
 export default function MainLayout() {
   return (
-    <>
-      <header>
+    <div className="min-h-screen bg-background text-foreground">
+      <header className="mb-5">
         <Navbar />
       </header>
 
-      <main>
+      <main className="mx-15">
         <Outlet />
       </main>
 
-      <footer>
+      <footer className="mx-28 mt-8">
         <Footer />
       </footer>
-    </>
+    </div>
   );
 };
