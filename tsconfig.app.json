@@ -19,9 +19,10 @@
     /* Path aliases */
     "paths": {
       "@app/*": ["./src/app/*"],
-      "@pages/*": ["./src/pages/*"],
-      "@layouts/*": ["./src/layouts/*"],
+      "@assets/*": ["./src/assets/*"],
       "@components/*": ["./src/components/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@pages/*": ["./src/pages/*"],
     },
 
     /* Linting */
