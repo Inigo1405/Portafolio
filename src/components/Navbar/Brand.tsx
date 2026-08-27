@@ -2,7 +2,7 @@ import logo from "@assets/logo.png"
 
 export function Brand(){
   return(
-    <div className="grid grid-cols-[auto_1fr]">
+    <div className="grid grid-cols-[auto_auto_1fr] items-center">
       <div>
         <img 
           className="h-10 w-auto"
@@ -11,9 +11,11 @@ export function Brand(){
         />
       </div>
 
-      <div className="grid grid-rows-2">
-        <div>Iñigo</div>
-        <div>Quintana Delgadillo</div>
+      <div className="mx-2 h-10 w-0.5 rounded bg-accent"/>
+
+      <div className="grid grid-rows-2 items-center">
+        <p>Iñigo</p>
+        <p>Quintana Delgadillo</p>
       </div>
     </div>
   );
