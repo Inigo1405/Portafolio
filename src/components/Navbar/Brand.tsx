@@ -11,7 +11,7 @@ export function Brand(){
         />
       </div>
 
-      <div className="mx-2 h-10 w-0.5 rounded bg-accent"/>
+      <div className="mx-2 h-10 w-0.5 rounded bg-divider"/>
 
       <div className="grid grid-rows-2 items-center">
         <p>Iñigo</p>
