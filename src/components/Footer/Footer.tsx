@@ -1,7 +1,11 @@
+
+
 function Footer() {
   return (
-    <div className="bg-accent p-8 rounded-t-4xl text-background">
-      Soy el Footer!
+    <div className="max-w-dvw py-5 px-15 border-t border-t-divider">
+      <div>
+        
+      </div>
     </div>
   );
 };
