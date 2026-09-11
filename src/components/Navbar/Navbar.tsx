@@ -1,6 +1,6 @@
 import { Brand } from "./Brand";
 import { Navigation } from "./Navigation"
-import { CTAButton } from "./CTAButton"
+import { CTAButton } from "./NavCTA"
 
 function Navbar() {
   return (

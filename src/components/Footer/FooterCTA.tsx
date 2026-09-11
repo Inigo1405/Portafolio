@@ -1,4 +1,4 @@
-export function FooterBrand() {
+export function FooterCTA() {
   return (
     <div>
             
