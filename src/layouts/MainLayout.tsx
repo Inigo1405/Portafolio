@@ -15,9 +15,7 @@ export default function MainLayout() {
         <Outlet />
       </main>
 
-      <footer className="mx-28 mt-8">
-        <Footer />
-      </footer>
+      <Footer />
     </div>
   );
 };
