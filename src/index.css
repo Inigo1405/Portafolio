@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+* {
+ background-color: #090909;
+ color: #FDFDFD;
+}
+
 @theme {
   --color-background: #090909; /* 171614*/
   --color-accent: #E4E4E7;

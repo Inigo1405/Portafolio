@@ -4,11 +4,22 @@ import { CTAButton } from "./NavCTA"
 
 function Navbar() {
   return (
-    <nav className="max-w-dvw py-5 px-15 border-b border-b-divider">
-      <div className="grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-10">
+    <nav className="border-b border-divider py-5 px-6 lg:px-15">
+      <div className="flex items-center justify-between">
         <Brand />
-        <Navigation />
-        <CTAButton />
+
+        <div className="hidden md:block">
+          <Navigation />
+        </div>
+
+        <div className="hidden md:block">
+          <CTAButton />
+        </div>
+
+        <button className="block md:hidden">
+          Menú
+        </button>
+
       </div>
     </nav>
   );
