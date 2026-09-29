@@ -5,7 +5,7 @@ import { FooterNavGroup } from "./FooterNavGroup";
 
 function Footer() {
   return (
-    <footer className="max-w-dvw py-5 px-15 border-t border-t-divider">
+    <footer className="border-t border-divider py-5 px-6 lg:px-15 ">
       <div className="grid grid-rows-2 items-center">
 
         <div className="flex gap-8">
