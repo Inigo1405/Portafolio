@@ -1,6 +1,6 @@
 export function FooterCTA() {
   return (
-    <div>
+    <div className="space-y-3">
       <h3>¿TRABAJEMOS JUNTOS?</h3>
       <p>Cuéntame tu idea y construyamos algo grande.</p>
       <button

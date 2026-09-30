@@ -1,4 +1,4 @@
-import { Brand } from "./Brand";
+import { Brand } from "./NavBrand";
 import { Navigation } from "./Navigation"
 import { CTAButton } from "./NavCTA"
 import { MobileMenu } from "./MobileMenu";
