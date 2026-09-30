@@ -5,19 +5,21 @@ import { FooterNavGroup } from "./FooterNavGroup";
 
 function Footer() {
   return (
-    <footer className="border-t border-divider py-5 px-6 lg:px-15 ">
-      <div className="grid grid-rows-2 items-center">
+    <div className="border-t border-divider py-5 px-6 lg:px-15">
+      <div className="flex flex-col gap-10">
 
-        <div className="flex gap-8">
+        <div className="flex justify-between gap-8">
           <FooterBrand />
           <FooterNavGroup />
           <FooterCTA />
         </div>
         
-        <FooterCopyright />
+        <div className="">
+          <FooterCopyright />
+        </div>
 
       </div>
-    </footer>
+    </div>
   );
 };
 

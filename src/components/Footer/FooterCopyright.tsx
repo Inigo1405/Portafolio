@@ -1,7 +1,7 @@
 export function FooterCopyright() {
   return (
     <div className="flex justify-center">
-      <p>Todos los derechos reservados</p>
+      <p>© 2026 Iñigo Quintana Delgadillo. Todos los derechos reservados</p>
     </div>
   );
 };

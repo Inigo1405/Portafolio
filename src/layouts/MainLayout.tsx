@@ -7,15 +7,17 @@ import Footer from "@components/Footer/Footer";
 export default function MainLayout() {
   return (
     <div className="min-h-screen">
-      <header className="mb-15">
+      <header className="mb-10">
         <Navbar />
       </header>
 
-      <main className="mx-15">
+      <main className="mx-18">
         <Outlet />
       </main>
 
-      <Footer />
+      <footer className="mt-10">
+        <Footer />
+      </footer>
     </div>
   );
 };
