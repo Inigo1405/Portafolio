@@ -5,7 +5,7 @@ import { MobileMenu } from "./MobileMenu";
 
 function Navbar() {  
   return (
-    <nav className="border-b border-divider py-5 px-6 lg:px-15">
+    <div className="border-b border-divider py-5 px-6 lg:px-15">
       <div className="flex items-center justify-between">
         <Brand />
 
@@ -17,13 +17,12 @@ function Navbar() {
           <CTAButton />
         </div>
 
-
         <div className="block md:hidden">
           <MobileMenu />
         </div>
 
       </div>
-    </nav>
+    </div>
   );
 };
 

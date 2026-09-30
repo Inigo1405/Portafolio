@@ -3,7 +3,9 @@ export function FooterCTA() {
     <div>
       <h3>¿TRABAJEMOS JUNTOS?</h3>
       <p>Cuéntame tu idea y construyamos algo grande.</p>
-      <button>
+      <button
+        className="border-surface bg-surface text-background rounded-lg px-6"
+      >
         ESCRÍBEME
       </button>
     </div>

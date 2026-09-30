@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
-* {
- background-color: #090909;
- color: #FDFDFD;
+@layer base {
+  * {
+    color: #FDFDFD;
+  }
+
+  body {
+    background-color: #090909;
+  }
 }
 
 @theme {
