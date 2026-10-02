@@ -1,8 +1,10 @@
+import type { CommonProps } from "@sharedTypes/Common";
+
 import logo from "@assets/logo.png"
 
-export function FooterBrand() {
+export function FooterBrand({className}: CommonProps) {
   return (
-    <div>
+    <div className={`${className}`}>
       <img 
         className="h-10 w-auto"
         src={logo} 

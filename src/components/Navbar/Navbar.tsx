@@ -1,11 +1,14 @@
+import type { CommonProps } from "@sharedTypes/Common";
+
 import { Brand } from "./NavBrand";
 import { Navigation } from "./Navigation"
 import { CTAButton } from "./NavCTA"
 import { MobileMenu } from "./MobileMenu";
 
-function Navbar() {  
+
+function Navbar({className}: CommonProps) {  
   return (
-    <div className="border-b border-divider py-5 px-6 lg:px-15">
+    <header className={`${className} border-b border-divider py-5 px-6 lg:px-15`}>
       <div className="flex items-center justify-between">
         <Brand />
 
@@ -22,7 +25,7 @@ function Navbar() {
         </div>
 
       </div>
-    </div>
+    </header>
   );
 };
 

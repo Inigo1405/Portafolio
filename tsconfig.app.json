@@ -23,6 +23,7 @@
       "@components/*": ["./src/components/*"],
       "@layouts/*": ["./src/layouts/*"],
       "@pages/*": ["./src/pages/*"],
+      "@sharedTypes/*": ["./src/types/*"],
     },
 
     /* Linting */
