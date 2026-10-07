@@ -8,7 +8,7 @@ export default function HomePage(){
       <HeroSection />
       
       <PrinciplesSection />
-      
+
       <ContactCTA />
     </div>
   );

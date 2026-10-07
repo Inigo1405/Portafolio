@@ -17,10 +17,9 @@ export function MobileMenu() {
       {isMenuOpen && (
         <nav className="absolute end-5 space-y-3">
           {navigationItems.map((item) => (
-            <div>
-              {item.label}
-            </div>
+            <p>{item.label}</p>
           ))}
+          <p>Contactar</p>
         </nav>
       )}
     </>

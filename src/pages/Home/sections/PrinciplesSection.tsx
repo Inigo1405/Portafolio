@@ -5,20 +5,39 @@ type Principle = {
 
 const principles: Principle[] = [
   {
-    label: "Entender antes de proponer",
-    description: "Primero se estudia cómo opera tu negocio; después se diseña.",
+    label: "Integrdidad",
+    description: "",
+  },
+  {
+    label: "Excelencia técnica",
+    description: "",
+  },
+  {
+    label: "Excelencia técnica",
+    description: "",
+  },
+  {
+    label: "Innovación",
+    description: "",
+  },
+  {
+    label: "Compromiso",
+    description: "",
   },
 ];
 
 export function PrinciplesSection() {
   return (
     <section>
-      {principles.map(({ label, description }) => (
-        <article key={label}>
-          <h3>{label}</h3>
-          <p>{description}</p>
-        </article>
-      ))}
+      <h2>Nuestos Valores</h2>
+      <div className="flex justify-between">
+        {principles.map((item) => (
+          <div key={item.label}>
+            <h3>{item.label}</h3>
+            <p>{item.description}</p>
+          </div>
+        ))}
+      </div>
     </section>
   );
 }
