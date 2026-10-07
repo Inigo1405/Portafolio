@@ -1,7 +1,11 @@
+import { HeroSection } from "./sections/HeroSection";
+import { ContactCTA } from "./sections/ContactCTA";
+
 export default function HomePage(){
   return (
-    <>
-      <h1>Portafolio Iñigo Quintana Delgadillo</h1>
-    </>
+    <div>
+      <HeroSection />
+      <ContactCTA />
+    </div>
   );
 };
