@@ -11,7 +11,7 @@ function Footer({className}: CommonProps) {
     <footer className={`${className} border-t border-divider py-5 px-6 lg:px-15`}>
       <div className="flex flex-col gap-10">
 
-        <div className="flex justify-between">
+        <div className="flex justify-between border-b border-divider pb-8">
           <FooterBrand className="max-w-xs"/>
           
           <div className="w-0.5 rounded bg-divider"/>

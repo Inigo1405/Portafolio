@@ -6,8 +6,17 @@ export function HeroSection () {
       <p>Autimatización, plataformas y herramientas en la nube, diseñadas para tu operación y acompañadas hasta que funcionen.</p>
 
       <div className="flex space-x-5">
-        <button>Ver proyectos</button>
-        <button>Hablemos</button>
+        <button 
+          className="border-surface border bg-surface text-background"
+        >
+          Ver proyectos
+        </button>
+
+        <button
+          className="border-surface border"
+        >
+          Hablemos
+        </button>
       </div>
     </>
   );
