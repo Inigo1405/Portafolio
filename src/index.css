@@ -8,6 +8,11 @@
   body {
     background-color: #090909;
   }
+
+  button {
+    padding-inline: 20px;
+    padding-block: 4px;
+  }
 }
 
 @theme {

@@ -4,8 +4,8 @@ import { PrinciplesSection } from "./sections/PrinciplesSection";
 
 export default function HomePage(){
   return (
-    <div>
-      <HeroSection />
+    <div  className="space-y-10 lg:space-y-20">
+      <HeroSection/>
       
       <PrinciplesSection />
 

@@ -1,3 +1,5 @@
+import { Eyebrow } from "@components/ui/eyebrow";
+
 type Principle = {
   label: string;
   description: string;
@@ -5,11 +7,7 @@ type Principle = {
 
 const principles: Principle[] = [
   {
-    label: "Integrdidad",
-    description: "",
-  },
-  {
-    label: "Excelencia técnica",
+    label: "Integridad",
     description: "",
   },
   {
@@ -29,7 +27,7 @@ const principles: Principle[] = [
 export function PrinciplesSection() {
   return (
     <section>
-      <h2>Nuestos Valores</h2>
+      <Eyebrow>NUESTOS VALORES</Eyebrow>
       <div className="flex justify-between">
         {principles.map((item) => (
           <div key={item.label}>

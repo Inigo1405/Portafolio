@@ -1,7 +1,9 @@
+import { Eyebrow } from "@components/ui/eyebrow";
 
 export function HeroSection () {
   return(
-    <>
+    <section>
+      <Eyebrow>INGENIERÍA EN SISTEMAS COMPUTACIONALES · PUEBLA, MX</Eyebrow>
       <h1>Soluciones digitales a la medida de tu negocio.</h1>
       <p>Autimatización, plataformas y herramientas en la nube, diseñadas para tu operación y acompañadas hasta que funcionen.</p>
 
@@ -18,6 +20,6 @@ export function HeroSection () {
           Hablemos
         </button>
       </div>
-    </>
+    </section>
   );
 };

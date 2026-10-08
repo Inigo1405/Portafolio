@@ -21,6 +21,7 @@
       "@app/*": ["./src/app/*"],
       "@assets/*": ["./src/assets/*"],
       "@components/*": ["./src/components/*"],
+      "@ui/*": ["./src/components/ui/*"],
       "@layouts/*": ["./src/layouts/*"],
       "@pages/*": ["./src/pages/*"],
       "@sharedTypes/*": ["./src/types/*"],
