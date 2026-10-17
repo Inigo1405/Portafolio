@@ -13,6 +13,12 @@ export function FooterBrand({className}: CommonProps) {
       <p>
         Creo soluciones tecnológicas que combinan código, datos e inteligencia para transformar negocios y mejorar la vida de las personas.
       </p>
+
+      <div className="flex gap-4 mt-4">
+        <p>Github</p>
+        <p>LinkedIn</p>
+        <p>Email</p>
+      </div>
     </div>
   );
 };
