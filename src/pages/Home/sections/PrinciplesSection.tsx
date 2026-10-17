@@ -16,7 +16,7 @@ const principles: Principle[] = [
   },
   {
     label: "Innovación",
-    description: "",
+    description: "Se adopta tecnología cuando resuelve un problema real del negocio",
   },
   {
     label: "Compromiso",

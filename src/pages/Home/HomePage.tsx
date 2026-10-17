@@ -1,6 +1,8 @@
-import { HeroSection } from "./sections/HeroSection";
 import { ContactCTA } from "./sections/ContactCTA";
+import { HeroSection } from "./sections/HeroSection";
 import { PrinciplesSection } from "./sections/PrinciplesSection";
+import { ProcessSection } from "./sections/ProcessSection";
+import { ServicesSection } from "./sections/ServicesSection";
 
 export default function HomePage(){
   return (
@@ -8,6 +10,10 @@ export default function HomePage(){
       <HeroSection/>
       
       <PrinciplesSection />
+
+      <ServicesSection />
+
+      <ProcessSection />
 
       <ContactCTA />
     </div>
