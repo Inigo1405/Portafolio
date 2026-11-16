@@ -18,9 +18,9 @@ function Footer({className}: CommonProps) {
 
           <FooterNavGroup />
           
-          <div className="w-0.5 rounded bg-divider hidden lg:block"/>
+          {/* <div className="w-0.5 rounded bg-divider hidden lg:block"/>
+          <FooterCTA /> */}
           
-          <FooterCTA />
         </div>
         
         <FooterCopyright />
