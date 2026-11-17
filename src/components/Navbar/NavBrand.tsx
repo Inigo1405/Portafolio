@@ -14,8 +14,8 @@ export function Brand(){
       <div className="mx-2 h-10 w-0.5 rounded bg-divider"/>
 
       <div className="grid grid-rows-2 items-center">
-        <p>IÑIGO</p>
-        <p>QUINTANA DELGADILLO</p>
+        <p className="text-xl tracking-widest font-semibold">IÑIGO</p>
+        <p className="text-sm tracking-wider">QUINTANA DELGADILLO</p>
       </div>
     </div>
   );

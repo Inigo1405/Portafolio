@@ -2,7 +2,7 @@ import type { CommonProps } from "@sharedTypes/Common";
 
 import { FooterBrand } from "./FooterBrand";
 import { FooterCopyright } from "./FooterCopyright";
-import { FooterCTA } from "./FooterCTA";
+// import { FooterCTA } from "./FooterCTA";
 import { FooterNavGroup } from "./FooterNavGroup";
 
 
