@@ -3,7 +3,7 @@ import { Eyebrow } from "@components/ui/eyebrow";
 export function ProcessSection() {
   return(
     <section>
-      <Eyebrow>PROCESO</Eyebrow>
+      <Eyebrow>METODOLOGÍA</Eyebrow>
     </section>
   );
 };

@@ -5,13 +5,16 @@ export const navigationItems: NavItem[] = [
     label: "Inicio"
   },
   {
-    label: "Acerca de"
-  },
-  {
     label: "Servicios"
   },
   {
     label: "Proyectos"
+  },
+  {
+    label: "Metodología"
+  },
+  {
+    label: "Nosotros"
   }
 ];
 

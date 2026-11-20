@@ -11,13 +11,13 @@ export function FooterBrand({className}: CommonProps) {
         alt="Iñigo Quintana Delgadillo" 
       />
       <p>
-        Creo soluciones tecnológicas que combinan código, datos e inteligencia para transformar negocios y mejorar la vida de las personas.
+        Desarrollo de soluciones tecnológicas que conectan ingeniería, innovación y necesidades reales de negocio.
       </p>
 
       <div className="flex gap-4 mt-4">
-        <p>Github</p>
-        <p>LinkedIn</p>
         <p>Email</p>
+        <p>LinkedIn</p>
+        <p>Github</p>
       </div>
     </div>
   );

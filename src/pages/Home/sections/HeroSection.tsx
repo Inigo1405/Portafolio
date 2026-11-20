@@ -3,12 +3,12 @@ import { Eyebrow } from "@components/ui/eyebrow";
 export function HeroSection () {
   return(
     <section className="max-w-2/3">
-      <Eyebrow>INGENIERÍA EN SISTEMAS COMPUTACIONALES · PUEBLA, MX</Eyebrow>
+      <Eyebrow>DESAROLLO DE SOLUCIONES TECNOLÓGICAS</Eyebrow>
       <h1 className="my-6 text-5xl font-bold">
         Soluciones digitales a la medida de tu negocio.
       </h1>
       <p className="font-semibold">
-        Automatización, plataformas y herramientas en la nube, diseñadas para tu operación y acompañadas hasta que funcionen.
+        Automatización, plataformas y sistemas personalizados, diseñados para optimizar operaciones y resolver necesidades reales de negocio.
       </p>
 
       <div className="flex space-x-5 mt-4">
