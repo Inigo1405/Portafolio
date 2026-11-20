@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { navigationItems } from "./navigationItems";
+import { navigationItems, contactCTA } from "./navigationItems";
 
 export function MobileMenu() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +19,7 @@ export function MobileMenu() {
           {navigationItems.map((item) => (
             <p>{item.label}</p>
           ))}
-          <p>Contactar</p>
+          <p>{contactCTA.label}</p>
         </nav>
       )}
     </>

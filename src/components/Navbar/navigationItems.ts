@@ -1,17 +1,20 @@
-export const navigationItems = [
+export type NavItem = {label: string, path?: string}
+
+export const navigationItems: NavItem[] = [
   {
     label: "Inicio"
   },
   {
-    label: "Sobre mí"
+    label: "Acerca de"
   },
   {
     label: "Servicios"
   },
   {
     label: "Proyectos"
-  },
-  {
-    label: "Experiencia"
   }
 ];
+
+export const contactCTA: NavItem = {
+  label: "Contacto"
+}

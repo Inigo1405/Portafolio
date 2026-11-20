@@ -1,3 +1,4 @@
+import { contactCTA } from "./navigationItems";
 
 export function CTAButton() {
   return (
@@ -5,7 +6,7 @@ export function CTAButton() {
       className="border border-surface text-surface"
       onClick={() => console.log("Click")}
     >
-      Contacto →
+      {contactCTA.label} →
     </button>
   );
 };

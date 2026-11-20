@@ -8,20 +8,20 @@ export function HeroSection () {
         Soluciones digitales a la medida de tu negocio.
       </h1>
       <p className="font-semibold">
-        Autimatización, plataformas y herramientas en la nube, diseñadas para tu operación y acompañadas hasta que funcionen.
+        Automatización, plataformas y herramientas en la nube, diseñadas para tu operación y acompañadas hasta que funcionen.
       </p>
 
       <div className="flex space-x-5 mt-4">
         <button 
           className="border-surface border bg-surface text-background"
         >
-          Ver proyectos
+          Iniciar
         </button>
 
         <button
           className="border-surface border"
         >
-          Conocenos más
+          Explorar más
         </button>
       </div>
     </section>
